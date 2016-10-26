@@ -1,0 +1,27 @@
+h1{
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 3px 3px #000;
+	background: gray;
+}
+
+tr{
+	color: red;
+	font-size: 60 px;
+	text-align: left;
+	text-shadow: 2px 2px #000;
+}
+#text_pertama{
+	color: white;
+	font-size: 60 px;
+	text-align: right;
+	text-shadow: 2px 2px #000;
+}
+
+
+#text_kedua{
+	color: black;
+	font-size: 80 px;
+	text-align: center;
+}

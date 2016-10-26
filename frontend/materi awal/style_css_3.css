@@ -1,0 +1,106 @@
+
+/*sebagai css reset / untuk format semua*/
+
+/**{
+	margin: 0;
+	padding: 0;
+	font-family: calibri, "segoe ui", arial, sans-serif;
+}
+
+/*.......*/
+/*#box{
+	width: 100px;
+	height:100px;
+	background: red;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+	border-radius: 10px 10px 80px 0px ; 
+
+
+	box-shadow: 0px 10px 0px red,
+				0px 10px 0px white,
+				0px 20px 0px orange,
+				0px 20px 0px white,
+				0px 30px 0px yellow,
+				0px 30px 0px white,
+				0px 40px 0px green,
+				0px 40px 0px white,
+				0px 50px 0px blue,
+				0px 50px 0px white,
+				0px 60px 0px purple,
+				0px 60px 0px white,
+				0px 70px 0px maroon,
+				0px 70px 0px white,
+				0px 80px 0px gray,
+				0px 80px 0px white,
+				0px 90px 0px pink,
+				0px 90px 0px white,
+				0px 100px 0px brown; */			
+/*}*/
+/*membuat efek tombol 3D*/
+/*h1{
+	color: maroon;
+	text-shadow: 0px 1px 0px black;
+}
+#box:active{
+	box-shadow: 0px 0px 0px #000;
+	top: 60px;
+}
+#box:active h1{
+	color: white;
+	text-shadow: 0px 0px 10px white;
+}
+*/
+
+
+/*rainbow*/
+*{
+	background: black;
+}
+#box{
+	width: 100px;
+	height:100px;
+	background: red;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+	border-radius:absolute ; 
+
+
+	box-shadow: 0px 10px 0px red,
+				0px 12px 0px white,
+				0px 20px 0px orange,
+				0px 21px 0px white,
+				0px 30px 0px yellow,
+				0px 31px 0px white,
+				0px 40px 0px green,
+				0px 41px 0px white,
+				0px 50px 0px blue,
+				0px 51px 0px white,
+				0px 60px 0px purple,
+				0px 61px 0px white,
+				0px 70px 0px maroon,
+				0px 71px 0px white,
+				0px 80px 0px gray,
+				0px 81px 0px white,
+				0px 90px 0px pink,
+				0px 91px 0px white,
+				0px 100px 0px brown; 			
+}
+/*membuat efek tombol 3D*/
+h1{
+	color: maroon;
+	text-shadow: 0px 1px 0px black;
+}
+/*#box:active{
+	box-shadow: 0px 0px 0px #000;
+	top: 60px;
+}
+#box:active h1{
+	color: white;
+	text-shadow: 0px 0px 10px white;
+}
+*/

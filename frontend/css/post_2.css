@@ -1,0 +1,89 @@
+#percobaan{
+	text-align: right;
+}
+
+#menu{
+	font-family: "arial", "sans-serif";
+	color: red;
+	background: white;
+	text-align: center;
+}
+
+#masukkan{
+	text-align: center;
+	background-color: white;
+}
+
+#hallo{
+	color: white;
+	background:black;
+}
+#img{
+	background-image: url('UNDANGAN.jpg');
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-size:absolute;
+	background-position: 
+	center center;
+	width: 100%;
+}
+
+#header{
+	color: silver;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 7px 3px #000;
+	background:white;
+	width: 100%;
+}
+#table{
+	background-color: white;
+}
+
+#content{
+	position: relative;
+	width: 100%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+#content #img{
+	width: 100%;
+}
+
+#content #sidebar{
+	width: 50%;
+	/*float:left;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:purple;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	text-shadow: 3px 3px #000;
+	background: gray;
+	overflow-y: scroll;
+}
+
+#content #mainbar{
+	width: 50%;
+	background:yellow;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	/*float: right;*/
+}
+.clear{}
+
+#footer{
+	background:red;
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}

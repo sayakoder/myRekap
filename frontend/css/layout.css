@@ -1,0 +1,36 @@
+#header{
+	background: blue;
+}
+
+#content{
+	background: green;
+	height: 200px;
+	position: relative;
+}
+
+.clearfix{
+	clear: both;
+}
+
+#content #sidebar{
+	width: 20%;
+	/*float:left;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:purple;
+}
+
+#content #mainbar{
+	width: 80%;
+	background:yellow;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	/*float: right;*/
+}
+
+#footer{
+	background:red;
+}

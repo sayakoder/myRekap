@@ -1,0 +1,9 @@
+logika log-in:
+
+-- data password yang ada di DB itu sudah di hash berupa 32 string md5 yang tidak bisa dibaca
+
+sistem kerja :
+-- user memasukkan user dan pass
+-- submit
+-- sistem akan mengecek apakah password di DB ada atau tidak
+-- ketika username ada, sistem akan menge-hash/meng-encript inputan password dengan md5

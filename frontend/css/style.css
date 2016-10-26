@@ -1,0 +1,15 @@
+
+		p{
+			color: red;
+		}
+		ul {
+			background: green;
+		}
+
+		ul li a {
+			text-decoration: none;
+		}
+
+		p strong{
+			color: grey;
+		}

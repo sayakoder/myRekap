@@ -1,0 +1,105 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery</title>
+	<style>
+		.red
+		{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Belajar jQuery</h1>
+	<h3>teks ini akan hilanh ketika judul di klik</h3>
+	<input type="text" class="nama"/><br> -->
+	
+<!-- 	<input type="text" name="form_1"><br>
+	<input type="text" name="form_perhitungan"><br>
+	<input type="text" name="form_2"><br>
+	<input type="text" name="form_hasil"><br> -->
+	<!-- <form name="Kalkulator">
+		<input type="text" style="width:142px" name="Layar" /><br>
+		<button type="button" onclick="Kalkulator.Layar.value = ''">
+   <a href="javascript:void(0)">hapus</a>
+</button>
+	<input type="button" value="7" onclick="Kalkulator.Layar.value += '7'" />
+	<input type="button" value="8" onclick="Kalkulator.Layar.value += '8'" />
+	<input type="button" value="9" onclick="Kalkulator.Layar.value += '9'" />
+	<input type="button" value="/" onclick="Kalkulator.Layar.value += ' / '">
+	<input type="button" value="4" onclick="Kalkulator.Layar.value += '4'" />
+	<input type="button" value="5" onclick="Kalkulator.Layar.value += '5'" />
+	<input type="button" value="6" onclick="Kalkulator.Layar.value += '6'" />
+	<input type="button" value="x" onclick="Kalkulator.Layar.value += ' * '" />
+	<input type="button" value="1" onclick="Kalkulator.Layar.value += '1'" />
+	<input type="button" value="2" onclick="Kalkulator.Layar.value += '2'" />
+	<input type="button" value="3" onclick="Kalkulator.Layar.value += '3'" />
+	<input type="button" value="-" onclick="Kalkulator.Layar.value += ' - '" />
+	<input type="button" value="." onclick="Kalkulator.Layar.value += '.'" />
+	<input type="button" value="0" onclick="Kalkulator.Layar.value += '0'" />
+	<input type="button" value="=" onclick="Kalkulator.Layar.value = Math.round( eval(Kalkulator.Layar.value) * 1000)/1000" />
+	<input type="button" value="+" onclick="Kalkulator.Layar.value += ' + '" />
+
+
+	<span id="namaResult"></span>
+
+	<script src='jquery.min.js'></script>
+	<script src='script.js'></script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title></title>
+	<script type="text/javascript" src="jquery-1.8.2.js"></script>
+	<style type="text/css">
+		input[type=number]{
+			text-align: right;
+			width: 100px;
+			background-color: beige;
+		}
+		input[type=number]:focus{
+			background-color: yellowgreen;
+		}
+	</style>
+</head>
+<body>
+	<input type="button" value="Hapus" id="btnTampil" />
+	<table border="0">
+		<tr>
+			<td>Angka 1</td>
+			<td>:</td>
+			<td><input type="number" id="txt1" name="txt1" /></td>
+		</tr>
+		<tr>
+			<td>Angka 2</td>
+			<td>:</td>
+			<td><input type="number" id="txt2" name="txt2" /></td>
+		</tr>
+		<tr>
+			<td>Operasi</td>
+			<td>:</td>
+			<td>
+				<select name="operator" id="operator">
+					<option value="+">Jumlah</option>
+					<option value="-">Kurang</option>
+					<option value="*">Kali</option>
+					<option value="/">Bagi</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Hasil</td>
+			<td>:</td>
+			<td><input type="number" id="txt-hasil" name="txt-hasil" /></td>
+		</tr>
+		<tr>
+			<td rowspan="3"> <input type="button" value="Hitung" id="btnHitung" /> </td>
+		</tr>
+	</table>
+</body>
+</html>

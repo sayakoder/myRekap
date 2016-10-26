@@ -1,0 +1,29 @@
+div#kotak_1{
+		width: 100px;
+		height: 500px;
+		/*memberikan dekorasi*/
+		text-decoration:underline;
+		/*untuk latar kontak*/
+		background: red;
+		/*untuk posisi kotak*/
+		display: inline-block;
+		/*jarak luar*/
+		margin: 20px;
+		/*jarak dalam*/
+		padding:10px;
+		/*untuk border*/
+		border: 5px dashed black;
+
+	}
+
+div#kotak_2{
+		width: 100px;
+		height: 500px;
+		/*memberikan dekorasi*/
+		text-decoration:underline;
+		background: yellow;
+		display: inline-block;
+		margin: 20px;
+		padding:10px;
+		border: 5px dashed red;
+	}

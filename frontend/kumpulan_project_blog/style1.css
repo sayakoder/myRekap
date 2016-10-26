@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri, "segoe ui", arial, sans-serif;
+
+	} 
+body{
+	background-color: #DDDDDD;
+}
+
+#wrapper{
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 5% 15% 20% 20%;
+}
+
+#header{
+	background: url(T6SCDevilJinAzazel005.png) repeat-x #555;
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+#header img{width: 20%;height: 20%;
+		position:relative;
+			}
+#header .img2{
+	width: 50%;height: 50%;
+	position: relative;
+	float: right;
+}
+
+#menu-utama{
+	margin-top: 3px;
+	list-style: none;
+}
+
+#menu-utama li{
+	float: left;
+	padding: 8px 20px;
+	border-right: 1px solid #555555;
+}
+
+#menu-utama li a:hover{
+	color: red;
+	text-decoration: none;
+}
+#menu-utama li a:focus{
+	color: yellow;
+	text-decoration: none;
+}
+#menu-utama li a:visited{
+	color: green;
+	text-decoration: none;
+}
+
+.search {
+	width: 200px;
+}
+
+#button {
+	display: inline;
+}
+
+input#button:hover {
+	color: white; 
+	background-color: red;
+	background: linear-gradient( red,black);
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 
+				0px 10px 10px red;
+}
+input#button:focus {
+	color: white; 
+	background-color: red;
+	background: linear-gradient(90deg,red,black);
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 
+				0px 10px 10px blue;
+}
+input#button:active {
+	color: white; 
+	background-color: red;
+	background: linear-gradient(black,red);
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 
+				0px 10px 10px green;
+}
+
+#header form{
+	float: right;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+#header form input{
+	border: none;
+	height: 20px;
+}
+
+#daftar-artikel{
+	width: 470px;
+	float: left;
+}
+
+.artikel{
+	background: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 460px;
+	background:black;
+		/*radial-gradient(
+			circle at center,
+			black, white, black, white);*/
+	transition: background 1s ease;
+	border-radius: 10px 100px 10px 100px;
+	box-shadow: 1px 3px 1px black,
+				2px 5px 2px white,
+				3px 7px 3px black;
+}
+.artikel:hover{
+	background:#DDDDDD;
+		/*radial-gradient(
+			circle at center,
+			white, black, white, black);
+		transition: background 5s ease;*/
+}		
+
+.artikel img{
+	float: left;
+	margin-right: 10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100px 100px 100px 100px;
+}
+
+.artikel b{
+	color: #616060;
+	background: #DDDDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.artikel p{
+	margin: 10px;
+	color: black;
+}
+
+.artikel a{
+	display: block;
+	text-align: right;
+	color: #636363;
+}
+.artikel h1{
+	color: blue;
+	text-shadow:	0px 3px 3px white,
+					0px 6px 6px blue;
+}
+
+#sidebar{
+	margin-top: 0px;
+	width: 270px;
+	float: right;
+}
+
+#sidebar h2{
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+#sidebar p{
+	line-height: 20px;
+	color: #636363;
+}
+
+#sidebar ul{
+	margin-left: 10px;
+}
+
+#sidebar ul li a{
+	color: #636363
+	text-decoration:none;
+}
+
+#footer{
+	clear: both;
+	margin: 20px 0;
+	text-align: center;
+	/*background-color: #f0f0f0;*/
+	background-color: black;
+	padding: 5px;
+	/*color: #555555;*/
+	color: #DDDDDD;
+}
+
+#clearfix{
+	clear: both;
+}

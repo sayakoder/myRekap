@@ -1,0 +1,26 @@
+
+elemen elemen selector
+
+
+descendant selector
+- Adlah u/ menujuk seluruh elemen dibawah elemen parrent nya
++ ditandai dengan tanda spasi
+
+- child selector
+mennunjuk elemen hanya saat benar2 ada.
++ ditandai dengan tanda >
+contoh .content > ul{ background: red;}
+
+- menunjuk elemen setelah elemen yang di tiunjuk
++ ditandai dengan tanda +
+contoh h1 + p {background: red;}
+
+- menunjuk seluruh elemen
++ ditandai dengan tanda ~
+contoh h1 ~ a {background: red;}
+
+________________________________CSS ATTRIBUT SELECKTOR
+
+- memilih elemen spesifik (contoh memilih input deanngan attribut type)
++ ditandai dengan tanda []
+contoh input[type='text']{ }

@@ -1,0 +1,18 @@
+div{
+	width: 100px;
+	height:100px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+}
+#kotakmerah{
+	background: red;
+	z-index: 2;
+}
+#kotakhijau{
+	background: green;
+	z-index: 1 ;
+	top: 50px;
+	left: 50px;
+}

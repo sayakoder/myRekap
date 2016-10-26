@@ -1,0 +1,38 @@
+/*.box{
+	width: 100px;
+	height:100px;
+	background: blue;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+
+	background: 
+		radial-gradient(
+			circle at top left,
+			blue, orange, green, red, white);
+}*/
+
+/*transisi*/
+
+/*transisi property*/
+/*bisa untuk background color
+rumus: transition : background-color 0.5s ease;
+untuk pake efek atas kebawah pake background colornya diganti height*/
+
+/***ease adalah : sebagai timing efect
+untuk efek lanjutnya lihat di website cubic-bezier.com 
+bisa dikombinasikan untuk image yang unik ..
+contoh mobil ferrary menjadi becak. ddengan mengggunakan mobil 1 ditutup mobil dua 
+lalu dijalankan*/
+
+.box{
+	width: 100px;
+	height: 100px;
+	left: 50px;
+	top: 50px;
+	background: blue;
+	transition: background-color 0.5s ease;
+}
+.box:hover{
+	background: red; 
+}

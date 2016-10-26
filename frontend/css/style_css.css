@@ -1,0 +1,21 @@
+h1{
+	background-color: red;
+	background-image: url(UNDANGAN.jpg); 
+}
+
+div{
+	width: 100%;
+	height: 500%
+	/*warna background*/
+	background-color: red;
+	/*background gambar*/
+	background-image: url(UNDANGAN.jpg); 
+	/*pengulangan background gaambar*/
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	/*posisi background*/
+	background-position:left top;
+	/*ukuran cover*/
+	background-size: cover;
+
+}

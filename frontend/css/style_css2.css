@@ -1,0 +1,14 @@
+div{
+	width: 100px;
+	height: 500px;
+
+	/*ukuran huruf*/
+	font-size: 50pt;
+	/*jenis huruf*/
+	font-family: "arial", "sans-serif";
+	/*untuk tebal*/
+	font-weight: 900;
+	/*untuk bentk huruf*/
+	font-style: italic;
+	
+}

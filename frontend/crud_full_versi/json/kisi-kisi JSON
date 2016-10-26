@@ -1,0 +1,23 @@
+kisi-kisi JSON
+
+JSON	: Java Script Object Notation
+-		- contoh:
+				{
+					"data_kota" : 
+					[
+						{
+							"id":"1",
+							"nama":"malang"
+						},
+						{
+							"id":"2",
+							"nama":"nganjuk"
+						},
+						{
+							"id":"3",
+							"nama":"blitar"
+						},
+					] 
+				}';'
+XML		: Extensible Mark Language
+YAML	: Yet Another Markup Language -> modern
